@@ -27,6 +27,7 @@ gem 'devise'
 # gem 'pg'
 gem 'haml', '~> 4.0.5'
 gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
