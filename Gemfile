@@ -8,8 +8,10 @@ end
 
 gem 'rails', '~> 5.0.4'
 gem 'sqlite3'
+gem 'actionview'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+# gem 'puma', '~> 3.0'
+gem 'puma', '>= 3.12.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,11 +24,11 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'devise'
+gem "devise", ">= 4.7.1"
 # gem 'bcrypt'
 # gem 'pg'
-gem 'haml', '~> 4.0.5'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+# gem 'haml', '~> 4.0.5'
+gem 'bootstrap-sass'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'masonry-rails', '~> 0.2.4'
 
